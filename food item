@@ -1,0 +1,33 @@
+#include<stdio.h>
+main()
+{
+	printf("SELECT UR FAV FOOD:  \n1. FRENCH FRIES , RS.99.\n2. CHEESE MAGGI ,RS 75.\n3. VEG FRANKI ,RS 80.\n4.PANEER FRANKIE ,RS.65.\n5.CHOCOLATE MOUSSE ,RS.50");
+	int food=0;
+	printf("\n your selection no: ");
+	scanf("%d",&food);
+	switch (food)
+	{
+		case 1:
+			printf("\n food item: french fries");
+			printf("\n price : rs.99");
+			break;
+		case 2: 
+	     	printf("\n food item:  cheese maggi");
+			printf("\n price : rs.75");
+			break;
+		case 3:
+			printf("\n food item: veg frankie");
+			printf("\n price : rs.80");
+			break;
+		case 4:
+			printf("\n food item: paneer frankie");
+			printf("\n price : rs.65");
+			break;
+		case 5: 
+		    printf("\n food item: chocolate mousse");
+			printf("\n price : rs.50");
+			break;
+		default:
+			printf("\n you have selected an invalid number");
+	}
+}
